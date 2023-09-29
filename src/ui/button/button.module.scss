@@ -1,0 +1,16 @@
+.button {
+    border-radius: 12px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    transition: .2s;
+
+    &:hover{
+        background: #f63;
+        color: #fff;
+    }
+}
+

@@ -1,0 +1,47 @@
+.notfound {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    &__container {
+        border-radius: 12px;
+        background: #FFF;
+        padding: 48px 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__box {
+        width: 400px;
+        text-align: center;
+
+        button{
+            width: 100%;
+            border-radius: 12px;
+        }
+    }
+
+    &__image {}
+
+    &__title {
+        color: #1D1D1F;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        color: #686870;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+}

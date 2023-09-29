@@ -1,0 +1,33 @@
+.navigate {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    &.active{
+        position: absolute;
+    }
+    button {
+        border-radius: 12px;
+    }
+}
+
+.navigate_text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    svg {
+        font-size: 18px;
+        color: #686870;
+    }
+
+    p {
+        color: #9E9E9E;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: capitalize;
+    }
+}

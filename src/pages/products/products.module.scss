@@ -1,0 +1,19 @@
+.products {
+    margin-top: 16px;
+
+    &__container {
+        position: relative;
+    }
+
+    &__box{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 20px;
+    }
+    &__more{
+        margin: 48px auto 64px;
+        border-radius: 12px;
+        width: 217px;
+        display: block;
+    }
+}

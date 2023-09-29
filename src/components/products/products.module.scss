@@ -1,0 +1,14 @@
+.products{
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+    &__block{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 20px;
+    }
+}

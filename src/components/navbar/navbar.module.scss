@@ -1,0 +1,153 @@
+.header {
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        background: #FFF;
+        position: sticky;
+        top: 16px;
+        z-index: 10;
+        margin-top: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &__select {
+        fieldset {
+            display: none;
+        }
+
+        svg {
+            border-radius: 6px;
+            background: #F5F5F7;
+            width: 24px;
+            height: 24px;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            img {
+                width: 200px;
+                margin-right: 12px;
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    &__location {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        p {
+            color: #1D1D1F;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+
+            span {
+                margin-left: 12px;
+            }
+        }
+    }
+
+    &__link,
+    &__phone {
+        color: #1D1D1F;
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 22px 18px;
+        transition: 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+
+        svg {
+            color: #f63;
+        }
+    }
+
+    &__link_active {
+        color: #f63;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    &__icon {
+        padding: 16px;
+        border-radius: 12px;
+        border: 1px solid #D2D2D7;
+        font-size: 24px;
+        color: #686870;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+    }
+
+    &__icon_num {
+        min-width: 36px;
+        min-height: 36px;
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        border-radius: 500px;
+        border: 1px solid #FFF;
+        background: #F63;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 5px;
+    }
+
+    &__icon_text {
+        color: #686870;
+        text-align: center;
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin-right: 12px;
+    }
+}
+.active{
+    background: rgba(26, 26, 26, 0.40);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+    z-index: 5;
+}

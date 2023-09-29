@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+    &__list {
+        border-radius: 12px;
+        background: #FFF;
+        padding:0 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    &__link{
+        padding:6px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        &:hover span{
+            color: #f63;
+        }
+        img{
+            width: 30px;
+            height: 35px;
+            font-size: 16px;
+        }
+
+        span{
+            color: #1D1D1F;
+            text-align: center;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            transition: .2s;
+        }
+    }
+}
